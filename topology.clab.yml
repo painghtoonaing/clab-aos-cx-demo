@@ -42,11 +42,6 @@ topology:
     agg2:
       kind: aruba_aoscx
       startup-config: configs/agg2-config.txt
-      stages:
-        create:
-          wait-for:
-            - node: agg1
-              stage: healthy
       labels:
         graph-icon: switch
         graph-posX: "675"
@@ -56,11 +51,6 @@ topology:
     access1:
       kind: aruba_aoscx
       startup-config: configs/access1-config.txt
-      stages:
-        create:
-          wait-for:
-            - node: agg2
-              stage: healthy
       labels:
         graph-icon: switch
         graph-posX: "535"
@@ -69,11 +59,6 @@ topology:
     access2:
       kind: aruba_aoscx
       startup-config: configs/access2-config.txt
-      stages:
-        create:
-          wait-for:
-            - node: access1
-              stage: healthy
       labels:
         graph-icon: switch
         graph-posX: "675"

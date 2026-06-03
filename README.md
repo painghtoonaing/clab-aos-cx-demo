@@ -43,10 +43,10 @@ Special thanks to [ljarasius](https://github.com/ljarasius) for recommending the
 Click the button below to create a new Codespaces machine and open remotely using VS Code. If you don't have the GitHub CodeSpaces extension you'll be prompted to install it and authorize access to your GitHub account.
 
 <div align=left markdown>
-<a href="https://codespaces.new/crispyfi/clab-aos-cx-demo?quickstart=1">
+<a href="https://codespaces.new/painghtoonaing/clab-aos-cx-demo?quickstart=1">
 <img src="https://gitlab.com/rdodin/pics/-/wikis/uploads/d78a6f9f6869b3ac3c286928dd52fa08/run_in_codespaces-v1.svg?sanitize=true" style="width:50%"/></a>
 
-**[Run](https://codespaces.new/crispyfi/clab-aos-cx?quickstart=1) this lab in GitHub Codespaces for free**.  
+**[Run](https://codespaces.new/painghtoonaing/clab-aos-cx?quickstart=1) this lab in GitHub Codespaces for free**.  
 [Learn more](https://containerlab.dev/manual/codespaces) about Containerlab for Codespaces.  
 <small>Machine type: 4 vCPU · 16 GB RAM</small>
 </div>

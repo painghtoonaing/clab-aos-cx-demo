@@ -10,6 +10,7 @@ topology:
     ### Hosts ###
     host1:
       kind: linux
+      memory: 64MiB
       binds:
         - configs/host1.sh:/host1.sh
       exec:
@@ -21,6 +22,7 @@ topology:
         graph-groupLabelPos: bottom-center
     host2:
       kind: linux
+      memory: 64MiB
       binds:
         - configs/host2.sh:/host2.sh
       exec:
@@ -33,6 +35,7 @@ topology:
     ### Aggregation Switches ###    
     agg1:
       kind: aruba_aoscx
+      memory: 3.72GiB
       startup-config: configs/agg1-config.txt
       labels:
         graph-icon: switch
@@ -41,6 +44,7 @@ topology:
         graph-groupLabelPos: bottom-center
     agg2:
       kind: aruba_aoscx
+      memory: 3.72GiB
       startup-config: configs/agg2-config.txt
       labels:
         graph-icon: switch
@@ -50,6 +54,7 @@ topology:
     ### Access Switches ###  
     access1:
       kind: aruba_aoscx
+      memory: 3.72GiB
       startup-config: configs/access1-config.txt
       labels:
         graph-icon: switch
@@ -58,6 +63,7 @@ topology:
         graph-groupLabelPos: bottom-center
     access2:
       kind: aruba_aoscx
+      memory: 3.72GiB
       startup-config: configs/access2-config.txt
       labels:
         graph-icon: switch
